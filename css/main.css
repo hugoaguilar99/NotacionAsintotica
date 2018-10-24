@@ -1,0 +1,70 @@
+html {
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+	background:url(Cactus.jpg);
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-attachment:scroll; /* scroll/fixed*/
+	background-position:center 0px;
+}
+
+div {
+    width: 100%;
+}
+
+h1 {
+    width: 90%;
+    margin: 2% 10%;
+}
+
+.inValue {
+    width: 300px;
+    height: auto;
+    margin: 25px 15px;
+    display: block;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    font-size: 13px;
+    display: block;
+    width: 100%;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    border: 1px solid #228AE1;
+}
+
+form {
+    width: 20%;
+    height: auto;
+    margin: 20px 20% 20px 5%;
+    display: inline-block;
+    float: left;
+}
+
+input[type="submit"] {
+    margin-bottom: 0px;
+    background: #228AE1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: #55A7EC;
+    cursor: pointer;
+}
