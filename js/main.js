@@ -57,10 +57,10 @@
         });
 
         function ComprobarO() {
-            
-            for(var k =0.1 ; k < 125 ; k= k + 0.1){    
+            var k =0.1 ; k < 125 ; k= k + 0.1
+            for(var j=0 ; j < 100; j++){    
                 for (var i = j ; i <= j * 100; i++) {
-                    for(var j=0 ; j < 100; j++ ){
+                    for(var k =0.1 ; k < 125 ; k= k + 0.1){
                         if ((k * g(i)) > f(i)) {
                             contador++;
                             n01 = i;
@@ -77,10 +77,10 @@
         }
 
         function ComprobarOmega() {
-             
-            for(var k = 100  ; k > 0 ; k= k - 0.1){    
+            
+            for(var j=0 ; j < 100 ; j++){    
                 for (var i = j ; i <= j * 100; i++) {
-                    for( var j=0 ; j < 100 ; j++){
+                    for(var k = 100  ; k > 0 ; k= k - 0.1){
                         if ((k * g(i)) < f(i)) {
                             contador2++;
                             
